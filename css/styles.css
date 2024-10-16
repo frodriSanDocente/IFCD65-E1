@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*
+:root {
+    --main-bg-color: rgb(247, 221, 73);
+  }
+ *{
+    border: 1px solid red;
+} */
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: "Inter", sans-serif;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    text-align: right;
+    align-items:flex-end;
+    margin-bottom: 0.5em;
+}
+
+
+input {
+    height: 30px;
+    width: 290px;
+    margin-left: 2em;
+    margin-bottom: 0.2em;
+    border: none;
+}
+
+/* p {
+    border: 1px solid red;
+} */
+
+.contenedor {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+div ~ label {
+    background-color: aquamarine;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    background-color: #95BDCA;
+    width: 640px;
+    height: 430px;
+    padding: 20px 28px;
+    box-shadow: 7px 9px 5px #00000050;
+}
+
+.datos {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between; 
+    align-content: flex-start;
+}
+#bio, #bio:focus{
+    font-size: 12px;
+    background-color: #fff;
+    width: auto;
+    /* height: 176px; */
+    border-radius: 30px;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 23px 20px;
+}
+
+#imgCarnet{
+    width: 122px;
+    height: 173px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+#hBio {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 3em;
+}
+
+#datos2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-content: flex-start;
+
+}
