@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio1</title>
+    <title>E1 - IFCD65</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
-    <div class="contenedor">
-        <div class="tarjeta">
+    <div class="container">
+
+        <div class="card">
             <div class="datos">
-                <div id="imgCarnet" src="" alt=""></div>
-                <div id="datos2">
-                    <label>Nombre<input type="text"></label>
-                    <label>Apellidos<input type="text"></label>
-                    <label>Email de Contacto<input type="text"></label>
-                    <label>Nº de Socio<input type="text"></label>
+                <img id="idfoto" src="" alt="">
+                <div class="formulario">
+                    <label for="name">Nombre: <input type="text" id="name" name="name" id=""></label>
+                    <label for="apellidos">Apellidos: <input type="text" id="apellidos" name="apellidos" id=""></label>
+                    <label for="email">Email de contacto: <input type="text" id="email" name="email" id=""></label>
+                    <label for="numSocio">Nº de socio: <input type="text" id="numSocio" name="numSocio" id=""></label>
                 </div>
             </div>
-            <p id="hBio">Biografía</p>
-            <!-- <h3>Biografía</h3> -->
-            <div name="" id="bio" cols="100" readonly><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p></div>
-        </div>
-    </div>
+            <div class="bio">
+                <h3>Biografía</h3>
+                <div class="texto">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        fugiat nulla pariatur.
+                    </p>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam
+                        rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                        sunt
+                        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
